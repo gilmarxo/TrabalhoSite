@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>VixInfo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Trabalho para a diciplina">
+  <meta name="author" content="Gilmar Xavier de Oliveira">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bibliotecas CSS -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Principal CSS - customizado -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Inicio -->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"> <span>VixInfo</span></a>
+
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Inicio</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#team">Nosso Time</a></li>
+          <li><a href="#pricing">Planos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!--==========================
+    Inicio
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>Soluções Rapidas<br> para você e a sua <span>Empresa!</span></h2>
+          <h4>Transforme visitantes em clientes.
+            Planejamento de estratégias digitais com foco em resultados para o seu negócio crescer. </h4>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Saiba Mais</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="img/intro-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      Sobre
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="about-img">
+              <img src="img/about-img.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="about-content">
+              <h2>Sobre Nós</h2>
+              <h3>Os melhores serviços com os melhores preços do mercado.</h3>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> Somos uma empresa com foco no seu desenvovimento.</li>
+                <li><i class="ion-android-checkmark-circle"></i> Com o intuito de ligar você ao seus clientes.</li>
+                <li><i class="ion-android-checkmark-circle"></i> Criando visibilidade para a sua empresa na web.</li>
+              </ul>
+
+              <div>
+                <a href="#footer" class="btn-get-started scrollto">Contato</a>
+              </div>
+            </div>
+          </div>
+          <!-- formulário -->
+          <div class="col-lg-4 col-md-3">
+            <div class="form">
+
+              <h4>Solicitar Orçamento</h4>
+              <p>Solicite um orçamento personalizado.</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome"
+                    data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail"
+                    data-rule="email" data-msg="Por favor, insira um e-mail valido" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Objetivo"
+                    data-rule="minlen:4" data-msg="Por favor, insira pelo menos 8 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Por favor insira os dados" placeholder="Sua Mensagem"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Enviar mensagem">Enviar</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!--==========================
+      Serviços
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Serviços</h3>
+          <p>Nossos serviços são personalizados para a sua empresa.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-android-globe" style="color: #ff689b;"></i>
+              </div>
+              <h4 class="title"><a href="">Web Site</a></h4>
+              <p class="description">Crie o seu site de forma inteligente. Que será adaptado para proporcionar o melhor
+                para o seu cliente.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-android-apps" style="color: #e98e06;"></i>
+              </div>
+              <h4 class="title"><a href="">Aplicativos Moveis</a></h4>
+              <p class="description">Aplicativos na medida certa para mostra a sua empresa ao mundo. E encontrar o seu
+                cliente em qualquer lugar.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-android-people" style="color: #3fcdc7;"></i>
+              </div>
+              <h4 class="title"><a href="">Rede Social</a></h4>
+              <p class="description">Visibilidade para a sua empresa nas redes Sociais. Pois está online é está
+                conectado ao mundo.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Time
+    ============================-->
+    <section id="team" class="section-bg ">
+      <div class="container">
+        <div class="section-header">
+          <h3>Time de Desenvolvimento</h3>
+          <p>Temos os profissionais mais qualificados do mercado.<br> Para fazer a sua empresa ir mais longe.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Gilmar Xavier</h4>
+                  <span>Desenvolvedor</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Viviane</h4>
+                  <span>Produtora e Desing</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Miqueias</h4>
+                  <span>Desenvolvedor Mobil</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--==========================
+      Preços
+    ============================-->
+    <section id="pricing" class="wow fadeInUp section-bg">
+
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Planos</h3>
+          <p>Temos o plano certo para sua empresa!</p>
+        </header>
+
+        <div class="row flex-items-xs-middle flex-items-xs-center">
+
+          <!-- Basico  -->
+          <div class="col-xs-10 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="currency">R$</span>19<span class="period">/ao Mês</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">
+                  Plano Basico
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Desenvolvimento de Site</li>
+                  <li class="list-group-item">App mobil</li>
+                  <li class="list-group-item">Visibilidade na WEB</li>
+                  <li class="list-group-item">24/7 de Suporte</li>
+                </ul>
+                <a href="#" class="btn">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Medio  -->
+          <div class="col-xs-10 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="currency">R$</span>29<span class="period">/ao Mês</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">
+                  Plano Médio
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Desenvolvimento de Site</li>
+                  <li class="list-group-item">Servidores dedicados</li>
+                  <li class="list-group-item">Visibilidade na WEB</li>
+                  <li class="list-group-item">24/7 de Suporte</li>
+                </ul>
+                <a href="#" class="btn">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Premium  -->
+          <div class="col-xs-12 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="currency">R$</span>39<span class="period">/ao Mês</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">
+                  Plano Premium
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">Desenvolvimento de Site</li>
+                  <li class="list-group-item">App mobil e Servidores</li>
+                  <li class="list-group-item">Sem limete na Web</li>
+                  <li class="list-group-item">24/7 de Suporte</li>
+                </ul>
+                <a href="#" class="btn">Contratar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <!--==========================
+   Rodar pé
+  ============================-->
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+              <div class="col-sm-6">
+
+                <div class="footer-info">
+                  <h3>VixInfo</h3>
+                  <p>Para inovar, uma empresa necessita criar um ambiente certo, uma cultura certa para inspirar as
+                    pessoas e potencializar suas mentes.</p>
+                </div>
+
+                <div class="footer-newsletter">
+                  <h4>Receba nossa Newsletter</h4>
+                  <p>Fique por dentro do que temos de melhor para a sua empresa.</p>
+                  <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Inscrever">
+                  </form>
+                </div>
+
+              </div>
+
+              <div class="col-sm-6">
+                <div class="footer-links">
+                  <h4>Links</h4>
+                  <ul>
+                    <li class="active"><a href="#intro">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#team">Nosso Time</a></li>
+                    <li><a href="#pricing">Planos</a></li>
+                  </ul>
+                </div>
+
+                <div class="footer-links">
+                  <h4>Contato</h4>
+                  <p>
+                    A108 Rua das Palmeiras <br>
+                    Vitória, ES 535022<br>
+                    Brasil <br>
+                    <strong>Telefone:</strong> +55 55488 55<br>
+                    <strong>E-mail:</strong> contato@example.com<br>
+                  </p>
+                </div>
+
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="form">
+
+              <h4>Envie-nos a sua mensagem</h4>
+              <p>Gostariamos de conhece-lo para oferecer-mos um melhor serviço.</p>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome"
+                    data-rule="minlen:4" data-msg="Por favor, insira pelo menos 4 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu E-mail"
+                    data-rule="email" data-msg="Por favor, insira um e-mail valido" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Objetivo"
+                    data-rule="minlen:4" data-msg="Por favor, insira pelo menos 8 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                    data-msg="Por favor insira sua mensagem" placeholder="Sua Mensagem"></textarea>
+                  <div class="validation"></div>
+                </div>
+
+                <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+                <div id="errormessage"></div>
+
+                <div class="text-center"><button type="submit" title="Enviar mensagem">Enviar</button></div>
+              </form>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>VixInfo</strong>. Todos os direitos reservados.
+      </div>
+      <div class="credits">
+
+        Designed by <a href="">Gilmar Xavier</a>
+      </div>
+    </div>
+  </footer>
+	<!-- Retornar ao topo da pagina -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+
+  <!-- JavaScript -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Form JavaScript -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Principal Javascript -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
